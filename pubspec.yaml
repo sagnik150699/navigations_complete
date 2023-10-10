@@ -1,0 +1,33 @@
+name: navigations_complete
+description: Dive deep into the intricate world of navigation with this comprehensive project. Brought to you by Sagnik Bhattacharya with Coding Liquids, this repository contains the full code, elucidating every facet of navigation in Flutter.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  url_strategy:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
