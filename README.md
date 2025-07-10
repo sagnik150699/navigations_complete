@@ -4,6 +4,9 @@ Dive deep into the intricate world of navigation with this comprehensive project
 
 Project Synopsis 📖
 From the foundational steps to advanced techniques, this Complete Navigation project leaves no stone unturned. Each code snippet is crafted for clarity, ensuring that you grasp the essence of Flutter navigation.
+— **Sagnik Bhattacharya**  
+Connect on LinkedIn → <https://www.linkedin.com/in/sagnik-bhattacharya-916b9463/>
+
 
 What's Inside?:
 Basic Routing: Demystifying the initial steps of screen navigation.
