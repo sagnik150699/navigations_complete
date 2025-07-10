@@ -1,6 +1,6 @@
 # navigations_complete
 
-Dive deep into the intricate world of navigation with this comprehensive project. Brought to you by Sagnik Bhattacharya with Coding Liquids, this repository contains the full code, elucidating every facet of navigation in Flutter.
+Dive deep into the intricate world of navigation with this comprehensive project. Brought to you by Sagnik Bhattacharya for Udemy Flutter course with Coding Liquids, this repository contains the full code, elucidating every facet of navigation in Flutter.
 
 Project Synopsis 📖
 From the foundational steps to advanced techniques, this Complete Navigation project leaves no stone unturned. Each code snippet is crafted for clarity, ensuring that you grasp the essence of Flutter navigation.
