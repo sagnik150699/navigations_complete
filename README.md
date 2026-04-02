@@ -1,32 +1,29 @@
 # navigations_complete
 
-Dive deep into the intricate world of navigation with this comprehensive project. Brought to you by Sagnik Bhattacharya for Udemy Flutter course with Coding Liquids, this repository contains the full code, elucidating every facet of navigation in Flutter.
+Dive deep into the intricate world of navigation with this comprehensive project. Brought to you by Sagnik Bhattacharya for the Udemy Flutter course with Coding Liquids, this repository contains the full code and explains key navigation patterns in Flutter.
 
-Project Synopsis 📖
-From the foundational steps to advanced techniques, this Complete Navigation project leaves no stone unturned. Each code snippet is crafted for clarity, ensuring that you grasp the essence of Flutter navigation.
-— **Sagnik Bhattacharya**  
-Connect on LinkedIn → <https://www.linkedin.com/in/sagnik-bhattacharya-916b9463/>
+Project Synopsis
+From foundational steps to advanced techniques, this Complete Navigation project is built to make Flutter navigation easier to understand.
 
+Sagnik Bhattacharya
+LinkedIn: <https://www.linkedin.com/in/sagnik-bhattacharya-916b9463/>
+Website: <https://sagnikbhattacharya.com/>
 
-What's Inside?:
+What's Inside?
 Basic Routing: Demystifying the initial steps of screen navigation.
 Arguments and Data Transfer: A deep dive into seamless data exchange between routes.
 Sophisticated Transitions: Explore the art of fluid and captivating page transitions.
 Drawer, Tab, and Stack Navigation: Comprehensive coverage of diverse navigation patterns.
-How to Use 🛠️
-Prerequisites:
-Make sure you have:
 
+How to Use
+Prerequisites:
 Flutter SDK
 Dart
 An emulator or a physical device
 
+Learning and Growing
+This repository is more than just code; it is a learning tool. Feel free to experiment, break things, fix them, and learn. If you have questions or run into issues, open an issue or submit a pull request.
 
-Learning and Growing 🌱
-This repository is more than just code; it's a learning tool. We encourage you to experiment, break things, fix them, and learn. If you have any questions or stumble upon any issues, feel free to raise an issue or submit a pull request.
-
-Credits 🙌
-Kudos to:
-
-All students and learners, for being the reason behind our endeavors.
-The vibrant Flutter community for making knowledge-sharing so accessible and enjoyable.
+Credits
+All students and learners, for being the reason behind these efforts.
+The Flutter community, for making knowledge-sharing so accessible and enjoyable.
