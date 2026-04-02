@@ -32,6 +32,11 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Codex/local tooling artifacts
+.codex/
+.codex-*
+flutter-version*.log
+
 # Symbolication related
 app.*.symbols
 
