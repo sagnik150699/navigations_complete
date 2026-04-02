@@ -1,30 +1,58 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:navigations_complete/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
+  Future<void> pumpAppWithSize(
+    WidgetTester tester, {
+    required Size size,
+  }) async {
+    tester.view.physicalSize = size;
+    tester.view.devicePixelRatio = 1.0;
+    addTearDown(tester.view.reset);
+
     await tester.pumpWidget(const MyApp());
+    await tester.pumpAndSettle();
+  }
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+  testWidgets('uses the mobile navigation flow on narrow screens', (
+    WidgetTester tester,
+  ) async {
+    await pumpAppWithSize(tester, size: const Size(600, 900));
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    expect(find.text('Home Mobile'), findsOneWidget);
+    expect(find.text('Home Web'), findsNothing);
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    await tester.tap(find.widgetWithText(MaterialButton, 'Go to about'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('About Mobile'), findsOneWidget);
+    expect(find.textContaining('Paulina Knop'), findsOneWidget);
+
+    await tester.tap(find.widgetWithText(MaterialButton, 'Go back'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Home Mobile'), findsOneWidget);
+  });
+
+  testWidgets('uses the web navigation flow on wide screens', (
+    WidgetTester tester,
+  ) async {
+    await pumpAppWithSize(tester, size: const Size(1200, 900));
+
+    expect(find.text('Home Web'), findsOneWidget);
+    expect(find.text('Home Mobile'), findsNothing);
+
+    await tester.tap(find.widgetWithText(MaterialButton, 'Go to about'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('About Web'), findsOneWidget);
+    expect(find.textContaining('Paulina Knop'), findsOneWidget);
+
+    await tester.tap(find.widgetWithText(MaterialButton, 'Go back'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Home Web'), findsOneWidget);
   });
 }
