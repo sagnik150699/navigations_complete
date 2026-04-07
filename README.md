@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sagnik150699/Sagnik-Bhattacharya/master/public/sagnik-bhattacharya.png" alt="Sagnik Bhattacharya" width="180">
+</p>
+
 # navigations_complete
 
 Dive deep into the intricate world of navigation with this comprehensive project. Brought to you by Sagnik Bhattacharya for the Udemy Flutter course with Coding Liquids, this repository contains the full code and explains key navigation patterns in Flutter.
