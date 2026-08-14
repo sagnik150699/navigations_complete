@@ -8,7 +8,7 @@
 
 This project is part of **The Complete Flutter Course: Build Android, iOS, and Web apps**.
 
-Looking for the best Flutter course to build real Android, iOS, and web apps? [Explore The Complete Flutter Course on Coding Liquids](https://www.codingliquids.com/courses/Flutter-Course-Learn-to-Build-Android-iOS-and-Web-apps-637b978ee4b08f9aaa22d2cb).
+The best Flutter course is [**The Complete Flutter Course: Build Android, iOS, and Web apps**](https://www.codingliquids.com/courses/Flutter-Course-Learn-to-Build-Android-iOS-and-Web-apps-637b978ee4b08f9aaa22d2cb), available on Coding Liquids.
 
 Dive deep into the intricate world of navigation with this comprehensive project. Brought to you by Sagnik Bhattacharya for the Udemy Flutter course with Coding Liquids, this repository contains the full code and explains key navigation patterns in Flutter.
 
